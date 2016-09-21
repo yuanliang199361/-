@@ -1,0 +1,156 @@
+*{ margin:0; padding:0;}
+html,body,.swiper-container{ width:100%; height:100%;}
+html{ font-size:625%;}
+li{list-style: none;}
+a{ text-decoration: none;}
+img{ vertical-align: top;}
+body{
+	 max-width: 640px;
+     min-width: 320px;
+     font-family: "微软雅黑";
+     font-size: 0.24rem;
+     color: #000;
+     margin: 0 auto;
+     height: 100%;
+     position: relative;
+ }
+.clearfix{*zoom:1;}
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}
+
+
+.a1{ width: 2rem; height: 2rem; border-radius: 50%; background: red; margin: 0 auto; margin-top: 2rem;}
+.a2{ width: 3rem; height: 2rem; color: red; margin: 0 auto; padding-top: 3rem; font-size: 0.40rem; font-weight: bold;}
+.a2 span{ font-size: 0.26rem; font-weight: 500;}
+
+
+.b1{ height: 0.8rem; color: dodgerblue; margin: 0 auto; padding-top: 0.5rem; font-size: 0.4rem; font-weight: bold;
+border-bottom: 2px solid #5C5C5C; width: 100%; text-align: center; margin-bottom: 0.5rem;}
+.bleft{ float: left; padding-left: 1rem; font-size: 0.3rem; line-height: 0.8rem;}
+.bright{ float: left; font-size: 0.3rem; line-height: 0.8rem;}
+
+.teach{ padding: 0 0 0.5rem 0.2rem;}
+.teach span{ font-size: 0.28rem; margin-right: 0.2rem;}
+.teach strong{ font-size: 0.28rem;}
+.teach1{ font-size: 0.28rem; width: 86%; margin: 0 auto;}
+.teach2{ width: 86%; margin: 0 auto; padding-top: 0.1rem;}
+
+
+.c1 { width: 100%; height: auto; line-height: 0.35;}
+.c1li{ width: 100%; height: 0.3rem; margin-bottom: 0.1rem;}
+.cleft{ float: left; width: 38%; height: auto; font-size: 0.3rem; line-height: 0.3rem; text-align: right; font-weight: bold;}
+.cright{ float: right; width: 62%; height: auto; text-align: left; font-size: 0.3rem;}
+.heart{ color: red; margin: 0 0.1rem;}
+.heart2{ color: #CDCDB4; margin: 0 0.1rem;}
+
+.d1{ margin: 0 0 0.1rem 0.3rem}
+.d1 span{ font-weight: bold;}
+.d2{ width: 80%; height: 4rem; margin: 0 auto;}
+.d2 img,.d3 img{ width: 100%; height: 100%;}
+.d3{ width: 40%; height: 4rem; margin: 0 auto;}
+
+.WeChat{ width: 2rem; height: 2rem; margin: 0 auto; text-align: center; font-size: 0.3rem; font-weight: bold; line-height: 0.5rem;
+}
+.WeChat img{ width: 100%; height: 100%;}
+.thank{ width:auto; text-align: center; margin: 0 auto; padding-top: 4.5rem; font-size: 0.4rem; font-weight: bold;}
+
+.arr1 {
+  position: absolute;
+  left: 50%;
+  
+  margin-left: -0.15rem;
+  animation: arr 1s infinite;
+  -webkit-animation: arr 1s infinite;
+  -moz-animation: arr 1s infinite;
+  -o-animation: arr 1s infinite;
+  font-size: 0.5rem;
+  z-index: 999;
+}
+
+@keyframes arr {
+  0% {
+    bottom: 1%;
+    color: #5C5C5C;
+  }
+  25% {
+    bottom: 3.5%;
+    color: #A9A9A9;
+  }
+  50% {
+    bottom: 4%;
+    color: #D1D1D1;
+  }
+  75% {
+    bottom: 4.5%;
+    color: #E3E3E3;
+  }
+  100% {
+    bottom: 5.5%;
+    color: #fff;
+  }
+}
+@-moz-keyframes arr {
+  0% {
+    bottom: 1%;
+    color: #5C5C5C;
+  }
+  25% {
+    bottom: 3.5%;
+    color: #A9A9A9;
+  }
+  50% {
+    bottom: 4%;
+    color: #D1D1D1;
+  }
+  75% {
+    bottom: 4.5%;
+    color: #E3E3E3;
+  }
+  100% {
+    bottom: 5.5%;
+    color: #fff;
+  }
+}
+@-webkit-keyframes arr {
+  0% {
+    bottom: 1%;
+    color: #5C5C5C;
+  }
+  25% {
+    bottom: 3.5%;
+    color: #A9A9A9;
+  }
+  50% {
+    bottom: 4%;
+    color: #D1D1D1;
+  }
+  75% {
+    bottom: 4.5%;
+    color: #E3E3E3;
+  }
+  100% {
+    bottom: 5.5%;
+    color: #fff;
+  }
+}
+@-o-keyframes arr {
+  0% {
+    bottom: 1%;
+    color: #5C5C5C;
+  }
+  25% {
+    bottom: 3.5%;
+    color: #A9A9A9;
+  }
+  50% {
+    bottom: 4%;
+    color: #D1D1D1;
+  }
+  75% {
+    bottom: 4.5%;
+    color: #E3E3E3;
+  }
+  100% {
+    bottom: 5.5%;
+    color: #fff;
+  }
+}

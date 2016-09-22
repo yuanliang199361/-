@@ -245,6 +245,11 @@
   })            
 
 //滑屏箭头
+window.onload=function(){  
+    var swiper = document.getElementById("swiper");  
+    var scale = window.screen.height / window.screen.width;  
+    swiper.style.height = document.body.clientWidth * scale + "px";  
+}  
 
 
 </script>

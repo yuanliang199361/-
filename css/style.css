@@ -25,8 +25,8 @@ body{
 
 .b1{ height: 0.7rem; color: dodgerblue; margin: 0 auto; padding-top: 0.3rem; font-size: 0.4rem; font-weight: bold;
 border-bottom: 2px solid #5C5C5C; width: 100%; text-align: center; margin-bottom: 0.3rem;}
-.bleft{ float: left; padding-left: 1rem; font-size: 0.3rem; line-height: 0.6rem;}
-.bright{ float: left; font-size: 0.3rem; line-height: 0.6rem;}
+.bleft{ float: left; padding-left: 1rem; font-size: 0.3rem; line-height: 0.7rem;}
+.bright{ float: left; font-size: 0.3rem; line-height: 0.7rem;}
 
 .teach{ padding: 0 0 0.5rem 0.2rem;}
 .teach span{ font-size: 0.28rem; margin-right: 0.2rem;}
